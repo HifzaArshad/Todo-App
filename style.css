@@ -1,0 +1,47 @@
+body{
+    text-align: center;
+  background-image: url('https://ph-files.imgix.net/31ddccd4-fad4-49d7-97c1-e53fefee61de?auto=format&auto=compress&codec=mozjpeg&cs=strip');
+  
+}
+@media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    [class*="main"] {
+      width: 100%;
+    }
+  }
+
+.main{
+   background-color  : #d2b2e5;
+   width: 600px;
+   height: 400px;
+   margin: 0 auto;
+   margin-top: 100px;
+   border-radius: 30px;
+}
+
+input{
+       margin-top: 10px;
+       height: 30px;
+       width: 300px;
+       font-size: 1em;
+        outline: none;
+ 
+}
+
+
+button{
+    background-color: #101820FF;
+    border: #101820FF;
+    color: #d2b2e5;
+    height: 40px;
+    width: 100px;
+     border-radius: 10px;
+   outline: none;
+}
+/* .long{
+    width: 50px;
+}
+.large{
+  width: 50px;
+} */
+
